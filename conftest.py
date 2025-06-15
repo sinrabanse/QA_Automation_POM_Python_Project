@@ -4,8 +4,6 @@ import subprocess
 import time
 import signal
 import os
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 
 # 2 Browsers
 
@@ -30,17 +28,16 @@ from selenium.webdriver.chrome.options import Options
 
 @pytest.fixture()
 def initialize_driver(request):
+    selenium_server_url = os.getenv("SELENIUM_SERVER")
 
     #Defining driver for all tests
-    if os.path.exists("/usr/bin/chromium"):
+    if selenium_server_url:
         # For docker
         options = webdriver.ChromeOptions()
-        options.binary_location = "/usr/bin/chromium"
-        service = Service(executable_path="/usr/bin/chromedriver")
         options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        driver = webdriver.Chrome(service=service, options=options)
+        driver = webdriver.Remote(command_executor=selenium_server_url, options=options, desired_capabilities=options.to_capabilities())
     else:
         # Locally
         driver = webdriver.Chrome()
