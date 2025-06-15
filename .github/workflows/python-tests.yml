@@ -21,5 +21,5 @@ jobs:
 
       - name: Build and run tests with Docker Compose
         run: |
-          docker-compose up --build --abort-on-container-exit
-          docker-compose down
+          docker compose up --build --abort-on-container-exit
+          docker compose down
