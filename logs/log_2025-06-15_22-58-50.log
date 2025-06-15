@@ -1,0 +1,185 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 22:58:51.756833
+Start name method: going_to_product_card
+
+End time: 2025-06-15 22:58:56.989030
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 22:58:56.989588
+Start name method: fast_order
+
+ERROR in method: fast_order
+Time: 2025-06-15 22:59:27.790795
+Exception: Message: 
+Stacktrace:
+#0 0xaaaad4a7ed48 <unknown>
+#1 0xaaaad458e314 <unknown>
+#2 0xaaaad45d61bc <unknown>
+#3 0xaaaad46113e8 <unknown>
+#4 0xaaaad45cacc8 <unknown>
+#5 0xaaaad4a4bef8 <unknown>
+#6 0xaaaad4a4ee90 <unknown>
+#7 0xaaaad4a4ea84 <unknown>
+#8 0xaaaad4a37438 <unknown>
+#9 0xaaaad4a4f4e4 <unknown>
+#10 0xaaaad4a22098 <unknown>
+#11 0xaaaad4a6cac8 <unknown>
+#12 0xaaaad4a6ccb8 <unknown>
+#13 0xaaaad4a7db50 <unknown>
+#14 0xffffab4fee9c <unknown>
+#15 0xffffab567b18 <unknown>
+
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-06-15 22:59:28.036131
+Start name method: get_product_page
+
+End time: 2025-06-15 22:59:29.094126
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-06-15 22:59:29.892036
+Start name method: adding_to_cart
+
+End time: 2025-06-15 22:59:34.222214
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 22:59:34.435102
+Start name method: get_product_page
+
+End time: 2025-06-15 22:59:35.426671
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 22:59:36.216822
+Start name method: adding_to_cart
+
+End time: 2025-06-15 22:59:40.946928
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 22:59:40.947313
+Start name method: choose_self_pickup
+
+ERROR in method: choose_self_pickup
+Time: 2025-06-15 22:59:43.204998
+Exception: Message: element click intercepted: Element <span class="select2-selection__rendered" id="select2-selectCity_pic-container" role="textbox" aria-readonly="true" title="...">בחר/י סניף</span> is not clickable at point (674, 335). Other element would receive the click: <button data-no-suboption-msg="יש לבחור את הסניף שממנו נרצה לאסוף את ההזמנה" type="button" class="btn orangeBtn font-weight-bold continueBtnnService continueBtnn" data-disabled="0">...</button>
+  (Session info: chrome=137.0.7151.103)
+Stacktrace:
+#0 0xaaaaaf27ed48 <unknown>
+#1 0xaaaaaed8e314 <unknown>
+#2 0xaaaaaeddbe08 <unknown>
+#3 0xaaaaaedda3c8 <unknown>
+#4 0xaaaaaedd8150 <unknown>
+#5 0xaaaaaedd791c <unknown>
+#6 0xaaaaaedccc28 <unknown>
+#7 0xaaaaaedcc574 <unknown>
+#8 0xaaaaaee113e8 <unknown>
+#9 0xaaaaaedcacc8 <unknown>
+#10 0xaaaaaf24bef8 <unknown>
+#11 0xaaaaaf24ee90 <unknown>
+#12 0xaaaaaf24ea84 <unknown>
+#13 0xaaaaaf237438 <unknown>
+#14 0xaaaaaf24f4e4 <unknown>
+#15 0xaaaaaf222098 <unknown>
+#16 0xaaaaaf26cac8 <unknown>
+#17 0xaaaaaf26ccb8 <unknown>
+#18 0xaaaaaf27db50 <unknown>
+#19 0xffffa9daee9c <unknown>
+#20 0xffffa9e17b18 <unknown>
+
+
+-----
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-15 22:59:43.441301
+Start name method: filtering_products
+
+End time: 2025-06-15 22:59:49.778992
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 22:59:51.008773
+Start name method: get_product_page
+
+End time: 2025-06-15 22:59:52.043673
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 22:59:52.640201
+Start name method: pushing_plus_button
+
+End time: 2025-06-15 22:59:53.423799
+End name method: pushing_plus_button
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 22:59:53.621539
+Start name method: get_product_page
+
+End time: 2025-06-15 22:59:54.711377
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 22:59:56.846192
+Start name method: adding_to_cart
+
+End time: 2025-06-15 23:00:01.055825
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 23:00:01.056206
+Start name method: remove_from_cart
+
+End time: 2025-06-15 23:00:02.775844
+End name method: remove_from_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----

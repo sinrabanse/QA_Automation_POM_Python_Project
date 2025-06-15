@@ -1,0 +1,22 @@
+
+-----
+Test: tests/choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 16:37:03.151488
+Start name method: get_product_page
+
+End time: 2025-06-15 16:37:08.300332
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 16:37:08.300431
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-06-15 16:37:29.260098
+Exception: 'NoneType' object has no attribute 'is_displayed'
+
+-----

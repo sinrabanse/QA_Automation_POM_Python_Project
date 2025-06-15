@@ -1,0 +1,32 @@
+
+-----
+Test: tests/filtering_test.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-15 16:58:14.870528
+Start name method: filtering_products
+
+ERROR in method: filtering_products
+Time: 2025-06-15 16:58:19.546396
+Exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.104)
+Stacktrace:
+0   chromedriver                        0x00000001030a2668 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x000000010309a8dc cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000102bee714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x0000000102bc8740 chromedriver + 132928
+4   chromedriver                        0x0000000102c5d9e4 cxxbridge1$string$len + 545804
+5   chromedriver                        0x0000000102c76908 cxxbridge1$string$len + 647984
+6   chromedriver                        0x0000000102c299c8 cxxbridge1$string$len + 332784
+7   chromedriver                        0x000000010306628c cxxbridge1$str$ptr + 2476360
+8   chromedriver                        0x0000000103069520 cxxbridge1$str$ptr + 2489308
+9   chromedriver                        0x0000000103047a78 cxxbridge1$str$ptr + 2351412
+10  chromedriver                        0x0000000103069da8 cxxbridge1$str$ptr + 2491492
+11  chromedriver                        0x0000000103038d6c cxxbridge1$str$ptr + 2290728
+12  chromedriver                        0x0000000103089d74 cxxbridge1$str$ptr + 2622512
+13  chromedriver                        0x0000000103089f00 cxxbridge1$str$ptr + 2622908
+14  chromedriver                        0x000000010309a528 cxxbridge1$str$ptr + 2690020
+15  libsystem_pthread.dylib             0x0000000194cd6c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000194cd1b80 thread_start + 8
+
+
+-----

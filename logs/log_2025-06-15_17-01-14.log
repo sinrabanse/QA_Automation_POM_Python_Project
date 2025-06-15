@@ -1,0 +1,150 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 17:01:16.589895
+Start name method: going_to_product_card
+
+End time: 2025-06-15 17:01:28.145931
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 17:01:28.146178
+Start name method: fast_order
+
+End time: 2025-06-15 17:01:32.301008
+End name method: fast_order
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 17:01:32.301224
+Start name method: choose_self_pickup
+
+End time: 2025-06-15 17:01:36.167619
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 17:01:36.167871
+Start name method: fill_customer_info
+
+End time: 2025-06-15 17:01:36.429928
+End name method: fill_customer_info
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 17:01:37.170474
+Start name method: get_product_page
+
+End time: 2025-06-15 17:01:43.188071
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 17:01:43.223935
+Start name method: adding_to_cart
+
+End time: 2025-06-15 17:01:48.042946
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 17:01:48.043058
+Start name method: choose_self_pickup
+
+End time: 2025-06-15 17:01:50.958787
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-15 17:01:51.685416
+Start name method: filtering_products
+
+End time: 2025-06-15 17:02:02.576156
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 17:02:03.268525
+Start name method: get_product_page
+
+End time: 2025-06-15 17:02:09.706481
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 17:02:10.402872
+Start name method: get_product_page
+
+End time: 2025-06-15 17:02:16.023609
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 17:02:16.058722
+Start name method: adding_to_cart
+
+End time: 2025-06-15 17:02:20.928055
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 17:02:20.928198
+Start name method: remove_from_cart
+
+ERROR in method: remove_from_cart
+Time: 2025-06-15 17:02:51.408338
+Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001009d2668 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001009ca8dc cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x000000010051e714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001005657c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x00000001005a6de8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001005599c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x000000010099628c cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000100999520 cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x0000000100977a78 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000100999da8 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x0000000100968d6c cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x00000001009b9d74 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x00000001009b9f00 cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x00000001009ca528 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x0000000194cd6c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000194cd1b80 thread_start + 8
+
+
+-----

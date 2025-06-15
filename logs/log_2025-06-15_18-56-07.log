@@ -1,0 +1,22 @@
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 18:56:08.908063
+Start name method: get_product_page
+
+End time: 2025-06-15 18:56:14.748253
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 18:56:14.799050
+Start name method: pushing_plus_button
+
+ERROR in method: pushing_plus_button
+Time: 2025-06-15 18:56:14.839954
+Exception: can only concatenate str (not "int") to str
+
+-----

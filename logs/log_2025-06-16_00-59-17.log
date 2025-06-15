@@ -1,0 +1,11 @@
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-16 00:59:20.621264
+Start name method: filtering_products
+
+End time: 2025-06-16 00:59:27.456248
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----

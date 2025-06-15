@@ -1,0 +1,17 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 23:06:10.761131
+Start name method: going_to_product_card
+
+End time: 2025-06-15 23:06:16.014021
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 23:06:16.014681
+Start name method: fast_order
+

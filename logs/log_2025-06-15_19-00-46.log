@@ -1,0 +1,22 @@
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:00:46.938438
+Start name method: get_product_page
+
+End time: 2025-06-15 19:00:52.398633
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:00:52.440712
+Start name method: pushing_plus_button
+
+ERROR in method: pushing_plus_button
+Time: 2025-06-15 19:00:53.018570
+Exception: type object 'TestData' has no attribute 'error_amount_product_field_text'
+
+-----

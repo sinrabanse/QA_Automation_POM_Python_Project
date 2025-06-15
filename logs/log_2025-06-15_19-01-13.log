@@ -1,0 +1,22 @@
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:01:14.509130
+Start name method: get_product_page
+
+End time: 2025-06-15 19:01:15.905613
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:01:17.012914
+Start name method: pushing_plus_button
+
+End time: 2025-06-15 19:01:17.630675
+End name method: pushing_plus_button
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----

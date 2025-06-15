@@ -1,0 +1,51 @@
+
+-----
+Test: tests/filtering_test.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-15 16:46:20.231323
+Start name method: filtering_products
+
+End time: 2025-06-15 16:46:34.228909
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 16:46:35.939089
+Start name method: going_to_product_card
+
+End time: 2025-06-15 16:46:46.407196
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 16:46:46.407396
+Start name method: fast_order
+
+ERROR in method: fast_order
+Time: 2025-06-15 16:47:17.438402
+Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010474a668 cxxbridge1$str$ptr + 2723108
+1   chromedriver                        0x00000001047428dc cxxbridge1$str$ptr + 2690968
+2   chromedriver                        0x0000000104296714 cxxbridge1$string$len + 90428
+3   chromedriver                        0x00000001042dd7c0 cxxbridge1$string$len + 381416
+4   chromedriver                        0x000000010431ede8 cxxbridge1$string$len + 649232
+5   chromedriver                        0x00000001042d19c8 cxxbridge1$string$len + 332784
+6   chromedriver                        0x000000010470e28c cxxbridge1$str$ptr + 2476360
+7   chromedriver                        0x0000000104711520 cxxbridge1$str$ptr + 2489308
+8   chromedriver                        0x00000001046efa78 cxxbridge1$str$ptr + 2351412
+9   chromedriver                        0x0000000104711da8 cxxbridge1$str$ptr + 2491492
+10  chromedriver                        0x00000001046e0d6c cxxbridge1$str$ptr + 2290728
+11  chromedriver                        0x0000000104731d74 cxxbridge1$str$ptr + 2622512
+12  chromedriver                        0x0000000104731f00 cxxbridge1$str$ptr + 2622908
+13  chromedriver                        0x0000000104742528 cxxbridge1$str$ptr + 2690020
+14  libsystem_pthread.dylib             0x0000000194cd6c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000194cd1b80 thread_start + 8
+
+
+-----

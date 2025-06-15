@@ -1,0 +1,121 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 19:09:53.561271
+Start name method: going_to_product_card
+
+End time: 2025-06-15 19:10:12.810830
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 19:10:12.811115
+Start name method: fast_order
+
+End time: 2025-06-15 19:10:16.708799
+End name method: fast_order
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-06-15 19:10:16.708949
+Start name method: choose_self_pickup
+
+ERROR in method: choose_self_pickup
+Time: 2025-06-15 19:10:31.883275
+Exception: 'NoneType' object has no attribute 'is_displayed'
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 19:10:32.639647
+Start name method: get_product_page
+
+End time: 2025-06-15 19:10:39.220596
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 19:10:39.782395
+Start name method: adding_to_cart
+
+End time: 2025-06-15 19:10:58.633278
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-06-15 19:10:58.633750
+Start name method: choose_self_pickup
+
+End time: 2025-06-15 19:11:01.049042
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-06-15 19:11:01.756483
+Start name method: filtering_products
+
+End time: 2025-06-15 19:11:12.220383
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:11:12.920812
+Start name method: get_product_page
+
+End time: 2025-06-15 19:11:13.954684
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-06-15 19:11:15.597752
+Start name method: pushing_plus_button
+
+End time: 2025-06-15 19:11:16.169298
+End name method: pushing_plus_button
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 19:11:16.803692
+Start name method: get_product_page
+
+End time: 2025-06-15 19:11:22.721404
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-06-15 19:11:22.760845
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-06-15 19:11:49.902778
+Exception: 'NoneType' object has no attribute 'is_displayed'
+
+-----

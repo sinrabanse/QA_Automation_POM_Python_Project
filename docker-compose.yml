@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  tests:
+    build: .
+    working_dir: /POM_python_project
+    volumes:
+      - ./:/POM_python_project:cached
+    command: pytest
