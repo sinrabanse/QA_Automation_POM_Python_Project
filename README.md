@@ -95,7 +95,7 @@ pip install -r requirements.txt
 ### 🔹 3. (Optional) Build and run with Docker Compose:
 
 ```bash
-docker-compose up --build
+docker compose up --abort-on-container-exit --exit-code-from tests
 ```
 
 ### 🔹 4. Alternatively, run directly with Pytest:
