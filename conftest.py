@@ -37,7 +37,7 @@ def initialize_driver(request):
         options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        driver = webdriver.Remote(command_executor=selenium_server_url, options=options, desired_capabilities=options.to_capabilities())
+        driver = webdriver.Remote(command_executor=selenium_server_url, options=options)
     else:
         # Locally
         driver = webdriver.Chrome()
