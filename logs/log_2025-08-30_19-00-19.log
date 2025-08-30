@@ -1,0 +1,165 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 19:00:21.285337
+Start name method: going_to_product_card
+
+End time: 2025-08-30 19:00:32.117235
+End name method: going_to_product_card
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 19:00:32.117483
+Start name method: fast_order
+
+End time: 2025-08-30 19:00:35.639794
+End name method: fast_order
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 19:00:35.639963
+Start name method: choose_self_pickup
+
+End time: 2025-08-30 19:00:38.853067
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 19:00:38.853305
+Start name method: fill_customer_info
+
+End time: 2025-08-30 19:00:39.136230
+End name method: fill_customer_info
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 19:00:39.894628
+Start name method: get_product_page
+
+End time: 2025-08-30 19:00:44.967693
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 19:00:45.009907
+Start name method: adding_to_cart
+
+End time: 2025-08-30 19:00:49.939440
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 19:00:50.587054
+Start name method: get_product_page
+
+End time: 2025-08-30 19:00:55.312647
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 19:00:55.354836
+Start name method: adding_to_cart
+
+End time: 2025-08-30 19:00:59.757237
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 19:00:59.757347
+Start name method: choose_self_pickup
+
+End time: 2025-08-30 19:01:02.762785
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-08-30 19:01:03.485503
+Start name method: filtering_products
+
+End time: 2025-08-30 19:01:12.703958
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-08-30 19:01:13.420854
+Start name method: get_product_page
+
+End time: 2025-08-30 19:01:19.531226
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-08-30 19:01:19.566742
+Start name method: pushing_plus_button
+
+End time: 2025-08-30 19:01:20.130653
+End name method: pushing_plus_button
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 19:01:20.806349
+Start name method: get_product_page
+
+End time: 2025-08-30 19:01:25.488532
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 19:01:25.523787
+Start name method: adding_to_cart
+
+End time: 2025-08-30 19:01:30.245387
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 19:01:30.245528
+Start name method: remove_from_cart
+
+End time: 2025-08-30 19:01:31.509076
+End name method: remove_from_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----

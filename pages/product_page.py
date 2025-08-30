@@ -65,16 +65,16 @@ class ProductPage(Base):
     @log_step()
     def fast_order(self):
         self.assert_phrase(self.get_product_title(), "iPhone 16")
-        self.assert_url(TestUrls.iphone_16_blue_url)
+        self.assert_url(TestUrls.iphone_16_black_url)
         self.click_buy_now_button()
         self.click_close_recommendation_button()
 
     @log_step()
     def get_product_page(self):
-        self.driver.get(TestUrls.iphone_16_blue_url)
+        self.driver.get(TestUrls.iphone_16_black_url)
         self.driver.maximize_window()
         self.get_current_url() 
-        self.assert_url(TestUrls.iphone_16_blue_url)
+        self.assert_url(TestUrls.iphone_16_black_url)
 
     @log_step()
     def adding_to_cart(self):

@@ -1,0 +1,11 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 18:54:03.904307
+Start name method: going_to_product_card
+
+ERROR in method: going_to_product_card
+Time: 2025-08-30 18:54:35.035948
+Exception: 'NoneType' object has no attribute 'is_displayed'
+
+-----

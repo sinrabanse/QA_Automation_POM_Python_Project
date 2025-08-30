@@ -1,0 +1,33 @@
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 18:53:33.744551
+Start name method: get_product_page
+
+End time: 2025-08-30 18:53:38.560641
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 18:53:39.128465
+Start name method: adding_to_cart
+
+End time: 2025-08-30 18:53:43.634980
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 18:53:43.635103
+Start name method: remove_from_cart
+
+End time: 2025-08-30 18:53:44.780960
+End name method: remove_from_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----

@@ -1,0 +1,40 @@
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 18:50:30.579213
+Start name method: get_product_page
+
+End time: 2025-08-30 18:50:35.887265
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 18:50:35.929719
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-08-30 18:51:06.784528
+Exception: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102c02e00 cxxbridge1$str$ptr + 2742224
+1   chromedriver                        0x0000000102bfad00 cxxbridge1$str$ptr + 2709200
+2   chromedriver                        0x00000001027450b8 cxxbridge1$string$len + 90520
+3   chromedriver                        0x000000010278c5d8 cxxbridge1$string$len + 382648
+4   chromedriver                        0x00000001027cd980 cxxbridge1$string$len + 649824
+5   chromedriver                        0x00000001027808f4 cxxbridge1$string$len + 334292
+6   chromedriver                        0x0000000102bc6478 cxxbridge1$str$ptr + 2494024
+7   chromedriver                        0x0000000102bc96a4 cxxbridge1$str$ptr + 2506868
+8   chromedriver                        0x0000000102ba73b0 cxxbridge1$str$ptr + 2366848
+9   chromedriver                        0x0000000102bc9f4c cxxbridge1$str$ptr + 2509084
+10  chromedriver                        0x0000000102b984a8 cxxbridge1$str$ptr + 2305656
+11  chromedriver                        0x0000000102be9644 cxxbridge1$str$ptr + 2637844
+12  chromedriver                        0x0000000102be97d0 cxxbridge1$str$ptr + 2638240
+13  chromedriver                        0x0000000102bfa94c cxxbridge1$str$ptr + 2708252
+14  libsystem_pthread.dylib             0x0000000195d43c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000195d3eb80 thread_start + 8
+
+
+-----

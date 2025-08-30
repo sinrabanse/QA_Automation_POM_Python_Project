@@ -14,7 +14,7 @@ class CatalogCheckoutPage(Base):
     choose_shop_dropdown = "//span[@id='select2-selectCity_pic-container']"
     shop_search_field =  "//input[@type='search' and contains(@aria-label, 'בחר סניף')]"
     choose_holon_shop = "//li[contains(text(), 'חולון') and @role='treeitem']"
-    second_continue_button = "//button[@type='button' and contains(@data-no-suboption-msg, 'יש לבחור את הסניף שממנו נרצה לאסוף את ההזמנה')]"
+    second_continue_button = "(//button[@type='button' and contains(@data-no-suboption-msg, 'יש לבחור את הסניף שממנו נרצה לאסוף את ההזמנה')])[1]"
     fast_buy_full_name_field = "//input[@data-save-address-fld='fname']"
     fast_buy_email_field = "//input[@data-save-address-fld='email']"
     fast_buy_phone_field = "//input[@data-save-address-fld='phone']"

@@ -1,0 +1,22 @@
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 18:51:56.301606
+Start name method: get_product_page
+
+End time: 2025-08-30 18:52:01.587027
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 18:52:01.625307
+Start name method: adding_to_cart
+
+End time: 2025-08-30 18:52:05.850465
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----

@@ -1,0 +1,33 @@
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 18:52:30.830881
+Start name method: get_product_page
+
+End time: 2025-08-30 18:52:31.973853
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=127518
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 18:52:33.060625
+Start name method: adding_to_cart
+
+End time: 2025-08-30 18:52:37.833101
+End name method: adding_to_cart
+URL: https://www.ivory.co.il/catalog_checkout.php
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 18:52:37.833204
+Start name method: choose_self_pickup
+
+End time: 2025-08-30 18:52:40.354358
+End name method: choose_self_pickup
+URL: https://www.ivory.co.il/catalog_checkout.php#step3
+
+-----

@@ -12,8 +12,8 @@ class MainPage(Base):
     checkbox_filter_phones = "//div[contains(@class, 'col-md-auto col-12 pr-2 pl-2 sinunLabelnewLabel d-flex')]//span[contains(@id, \
         'sinunTitle_2735') and contains(text(), 'טלפונים סלולרים וסמארטפונים')]"
     apply_filter_button = "//button[@class=' btn btn_filters hoverBtn filter-by-cats-btn']"
-    iPhone16BlueCart = "//div[@class='col-md-12 col-12 title_product_catalog mb-md-1 main-text-area' \
-        and contains(text(), 'אייפון Apple iPhone 16 128GB בצבע כחול')]"
+    iphone_16_black_cart = "//div[@class='col-md-12 col-12 title_product_catalog mb-md-1 main-text-area' \
+        and contains(text(), 'אייפון Apple iPhone 16 256GB בצבע שחור')]"
     apply_filter_button = "//button[@class=' btn btn_filters hoverBtn filter-by-cats-btn']"
 
     # Getters
@@ -34,7 +34,7 @@ class MainPage(Base):
         return self._get_element_by_xpath(self.apply_filter_button)
     
     def get_iphone_16_blue_cart(self):
-        return self._get_element_by_xpath(self.iPhone16BlueCart)
+        return self._get_element_by_xpath(self.iphone_16_black_cart)
     
     def get_apply_filter_button(self):
         return self._get_element_by_xpath(self.apply_filter_button)

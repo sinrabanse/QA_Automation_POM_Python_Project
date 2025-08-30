@@ -1,0 +1,195 @@
+
+-----
+Test: tests/sanity_test.py::TestSanity::test_sanity_test (call)
+Start time: 2025-08-30 15:23:00.064589
+Start name method: going_to_product_card
+
+ERROR in method: going_to_product_card
+Time: 2025-08-30 15:23:45.653921
+Exception: Message: 
+Stacktrace:
+#0 0x555555c736c3 <unknown>
+#1 0x5555559491e7 <unknown>
+#2 0x555555990566 <unknown>
+#3 0x555555990651 <unknown>
+#4 0x5555559cda74 <unknown>
+#5 0x5555559b20ed <unknown>
+#6 0x5555559cb322 <unknown>
+#7 0x5555559b1e93 <unknown>
+#8 0x555555984934 <unknown>
+#9 0x55555598571e <unknown>
+#10 0x555555c38cc8 <unknown>
+#11 0x555555c3cc00 <unknown>
+#12 0x555555c471ac <unknown>
+#13 0x555555c3d818 <unknown>
+#14 0x555555c0a28f <unknown>
+#15 0x555555c61e98 <unknown>
+#16 0x555555c62069 <unknown>
+#17 0x555555c72853 <unknown>
+#18 0x7fffff7a5609 start_thread
+
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 15:23:47.385450
+Start name method: get_product_page
+
+End time: 2025-08-30 15:23:51.809481
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 15:23:52.572126
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-08-30 15:24:22.703736
+Exception: Message: 
+Stacktrace:
+#0 0x555555c736c3 <unknown>
+#1 0x5555559491e7 <unknown>
+#2 0x555555990566 <unknown>
+#3 0x555555990651 <unknown>
+#4 0x5555559cda74 <unknown>
+#5 0x5555559b20ed <unknown>
+#6 0x5555559cb322 <unknown>
+#7 0x5555559b1e93 <unknown>
+#8 0x555555984934 <unknown>
+#9 0x55555598571e <unknown>
+#10 0x555555c38cc8 <unknown>
+#11 0x555555c3cc00 <unknown>
+#12 0x555555c471ac <unknown>
+#13 0x555555c3d818 <unknown>
+#14 0x555555c0a28f <unknown>
+#15 0x555555c61e98 <unknown>
+#16 0x555555c62069 <unknown>
+#17 0x555555c72853 <unknown>
+#18 0x7fffff7a5609 start_thread
+
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 15:24:24.393720
+Start name method: get_product_page
+
+End time: 2025-08-30 15:24:27.972256
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_choose_self_pickup.py::TestChooseSelfPickup::test_choose_self_pickup (call)
+Start time: 2025-08-30 15:24:29.207240
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-08-30 15:24:59.660924
+Exception: Message: 
+Stacktrace:
+#0 0x555555c736c3 <unknown>
+#1 0x5555559491e7 <unknown>
+#2 0x555555990566 <unknown>
+#3 0x555555990651 <unknown>
+#4 0x5555559cda74 <unknown>
+#5 0x5555559b20ed <unknown>
+#6 0x5555559cb322 <unknown>
+#7 0x5555559b1e93 <unknown>
+#8 0x555555984934 <unknown>
+#9 0x55555598571e <unknown>
+#10 0x555555c38cc8 <unknown>
+#11 0x555555c3cc00 <unknown>
+#12 0x555555c471ac <unknown>
+#13 0x555555c3d818 <unknown>
+#14 0x555555c0a28f <unknown>
+#15 0x555555c61e98 <unknown>
+#16 0x555555c62069 <unknown>
+#17 0x555555c72853 <unknown>
+#18 0x7fffff7a5609 start_thread
+
+
+-----
+
+-----
+Test: tests/test_filtering.py::TestFiltering::test_filtering (call)
+Start time: 2025-08-30 15:25:01.281973
+Start name method: filtering_products
+
+End time: 2025-08-30 15:25:15.725314
+End name method: filtering_products
+URL: https://www.ivory.co.il/catalog.php?act=cat&q=iPhone+16&cuts=2735
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-08-30 15:25:17.346198
+Start name method: get_product_page
+
+End time: 2025-08-30 15:25:21.692804
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_limit_testing.py::TestLimitTesting::test_limit_testing (call)
+Start time: 2025-08-30 15:25:22.501742
+Start name method: pushing_plus_button
+
+ERROR in method: pushing_plus_button
+Time: 2025-08-30 15:25:52.622542
+Exception: Message: 
+
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 15:25:54.232894
+Start name method: get_product_page
+
+End time: 2025-08-30 15:25:57.498068
+End name method: get_product_page
+URL: https://www.ivory.co.il/catalog.php?id=125970
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::TestRemoveFromCart::test_remove_from_cart (call)
+Start time: 2025-08-30 15:25:58.872010
+Start name method: adding_to_cart
+
+ERROR in method: adding_to_cart
+Time: 2025-08-30 15:26:29.119572
+Exception: Message: 
+Stacktrace:
+#0 0x555555c736c3 <unknown>
+#1 0x5555559491e7 <unknown>
+#2 0x555555990566 <unknown>
+#3 0x555555990651 <unknown>
+#4 0x5555559cda74 <unknown>
+#5 0x5555559b20ed <unknown>
+#6 0x5555559cb322 <unknown>
+#7 0x5555559b1e93 <unknown>
+#8 0x555555984934 <unknown>
+#9 0x55555598571e <unknown>
+#10 0x555555c38cc8 <unknown>
+#11 0x555555c3cc00 <unknown>
+#12 0x555555c471ac <unknown>
+#13 0x555555c3d818 <unknown>
+#14 0x555555c0a28f <unknown>
+#15 0x555555c61e98 <unknown>
+#16 0x555555c62069 <unknown>
+#17 0x555555c72853 <unknown>
+#18 0x7fffff7a5609 start_thread
+
+
+-----

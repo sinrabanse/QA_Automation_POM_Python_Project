@@ -1,0 +1,11 @@
+
+-----
+Test: tests/test_adding_to_cart.py::TestAddingToCart::test_adding_to_cart (call)
+Start time: 2025-08-30 18:46:24.327810
+Start name method: get_product_page
+
+ERROR in method: get_product_page
+Time: 2025-08-30 18:46:24.327981
+Exception: type object 'TestUrls' has no attribute 'iphone_16_black_url'
+
+-----
